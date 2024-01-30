@@ -1,0 +1,7 @@
+<ng-container *ngIf="vm$ | async as vm">
+  <p-card *ngIf="vm.stats">
+    <div>Name: {{ vm.stats?.name }}</div>
+    <div>Level: {{ vm.stats?.level }}</div>
+    <div>Rank: <img [src]="vm.stats?.rank" /></div>
+  </p-card>
+</ng-container>

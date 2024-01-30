@@ -1,0 +1,37 @@
+@use "../../scss/variables" as *;
+
+.avatar-container {
+  position: absolute;
+  left: 144px;
+  top: calc($base-spacing * 8);
+}
+.card-container {
+  margin-top: calc($base-spacing * 12);
+}
+
+.about-me-card-container {
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  border-radius: var(--border-radius);
+}
+
+.about-me-text-container {
+  margin-top: calc($base-spacing);
+}
+
+.about-me-header-container {
+  margin-left: calc($base-spacing * 20);
+  margin-bottom: calc($base-spacing * 2);
+
+  .about-me-header {
+    font-size: large;
+  }
+}
+
+.socials-container {
+  display: flex;
+  .social-icon {
+    margin-right: $base-spacing;
+  }
+}

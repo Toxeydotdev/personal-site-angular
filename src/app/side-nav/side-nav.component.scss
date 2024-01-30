@@ -1,0 +1,22 @@
+@use "../../scss/variables" as *;
+
+.side-nav-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  padding: 8px;
+
+  height: 100%;
+  border-right: 2px solid var(--primary-color);
+  img {
+    width: 64px;
+    height: 64px;
+  }
+}
+
+.router-link-active {
+  color: var(--highlight-bg);
+  background-color: var(--primary-color);
+  background-color: var(--highlight-bg);;
+}

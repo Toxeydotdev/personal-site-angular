@@ -1,0 +1,51 @@
+<div *ngIf="vm$ | async as vm" class="card-container flex base-gap">
+  <p-card *ngIf="vm" class="about-me-card-container flex-1">
+    <div class="about-me-avatar-container">
+      <sb-avatar class="avatar-container" />
+      <div class="about-me-header-container flex justify-between">
+        <div>
+          <div class="about-me-header">
+            Anthony Tran, Frontend Software Engineer
+          </div>
+          <div>Angular</div>
+        </div>
+        <div>
+          <div class="socials-container base-gap">
+            <a
+              href="https://github.com/Toxeydotdev"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><p-button [rounded]="true" icon="pi pi-github"></p-button
+            ></a>
+            <a
+              href="https://twitter.com/Toxeydotdev"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <p-button [rounded]="true" icon="pi pi-twitter"></p-button>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/toxeydotdev/"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><p-button [rounded]="true" icon="pi pi-linkedin"></p-button>
+            </a>
+            <a
+              href="https://discordapp.com/users/toxey/"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><p-button [rounded]="true" icon="pi pi-discord"></p-button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="about-me-text-container">
+      <section>
+        Hello! My name is Anthony Tran and I am a frontend software engineer
+        that works with Angular. This is a fun personal site where I plan on
+        uploading small projects and posting about personal life.
+      </section>
+    </div>
+  </p-card>
+</div>

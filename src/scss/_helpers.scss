@@ -1,0 +1,28 @@
+@use "./variables" as *;
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.base-gap {
+  gap: $base-spacing;
+}
+
+.base-margin {
+  margin: $base-spacing;
+}

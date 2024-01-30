@@ -1,0 +1,22 @@
+<div class="side-nav-container">
+  <img class="logo" src="/assets/imgs/Toxey.png" />
+
+  <!-- temp remove player stats -->
+  <!-- <p-button
+    icon="pi pi-chart-bar"
+    [routerLink]="['.', RouteEnum.PLAYER_STATS]"
+    routerLinkActive
+    #rlaStats="routerLinkActive"
+    [rounded]="true"
+    [outlined]="!rlaStats.isActive"
+  ></p-button> -->
+
+  <p-button
+    icon="pi pi-user"
+    [routerLink]="['.', RouteEnum.ABOUT_ME]"
+    routerLinkActive
+    #rlaAboutMe="routerLinkActive"
+    [rounded]="true"
+    [outlined]="!rlaAboutMe.isActive"
+  ></p-button>
+</div>

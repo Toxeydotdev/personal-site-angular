@@ -1,0 +1,12 @@
+@use "../scss/variables" as *;
+
+.content-container {
+  padding: calc($base-spacing * 3);
+  width: 100%;
+}
+
+.main-container {
+  height: 100%;
+  width: auto;
+  display: flex;
+}
