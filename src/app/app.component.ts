@@ -19,6 +19,4 @@ import { ToolbarComponent } from './toolbar/toolbar.component';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
 })
-export class AppComponent {
-  title = 'scoreboard';
-}
+export class AppComponent {}

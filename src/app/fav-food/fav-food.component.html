@@ -1,0 +1,19 @@
+<div class="flex fav-food-container">
+  @for (food of favFoods; track $index) {
+  <p-card
+    [header]="food.name"
+    [subheader]="food.cuisine"
+    [style]="{ width: '250px' }"
+    class="flex"
+  >
+    <ng-template pTemplate="header">
+      <div class="img-container">
+        <img class="avatar" [src]="food.image" />
+      </div>
+    </ng-template>
+    <p class="food-description">
+      {{ food.description }}
+    </p>
+  </p-card>
+  }
+</div>
