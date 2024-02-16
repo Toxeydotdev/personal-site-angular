@@ -3,7 +3,8 @@
   <p-card
     [header]="food.name"
     [subheader]="food.cuisine"
-    [style]="{ width: '350px' }"
+    [style]="{ width: '250px' }"
+    class="flex"
   >
     <ng-template pTemplate="header">
       <div class="img-container">
@@ -13,15 +14,6 @@
     <p class="food-description">
       {{ food.description }}
     </p>
-    <!-- <ng-template pTemplate="footer">
-      <p-button label="Save" icon="pi pi-check"></p-button>
-      <p-button
-        label="Cancel"
-        icon="pi pi-times"
-        styleClass="p-button-secondary"
-        [style]="{ 'margin-left': '.5em' }"
-      ></p-button>
-    </ng-template> -->
   </p-card>
   }
 </div>

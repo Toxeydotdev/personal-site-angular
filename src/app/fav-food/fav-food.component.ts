@@ -19,19 +19,17 @@ export class FavFoodComponent {
       cuisine: 'Vietnamese',
     },
     {
-      name: 'Burger',
+      name: 'In-N-Out Burger',
       description:
-        'A hamburger is a sandwich consisting of one or more cooked patties of ground meat, usually beef, placed inside a sliced bread roll or bun.',
-      image:
-        'https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Quarter-Pounder-with-Cheese.jpg',
+        'In-N-Out Burger is an American regional chain of fast food restaurants with locations primarily in California and the Southwest.',
+      image: '/assets/imgs/in_n_out_burger.jpg',
       cuisine: 'American',
     },
     {
-      name: 'Pasta',
+      name: 'Chicken Alfredo',
       description:
-        'Pasta is a type of food typically made from an unleavened dough of wheat flour mixed with water or eggs, and formed into sheets or other shapes, then cooked by boiling or baking.',
-      image:
-        'https://www.thespruceeats.com/thmb/5y4L7bXvKmYpJlJ0Lz5l4q5mZjE=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/pasta-2500-56a2104d3df78cf77272b4a8.jpg',
+        'Chicken Alfredo is a pasta dish made from fettuccine pasta tossed with a creamy Alfredo sauce and topped with grilled chicken.',
+      image: '/assets/imgs/Chicken-alfredo.jpg',
       cuisine: 'Italian',
     },
   ];

@@ -9,6 +9,7 @@ img {
 .img-container {
   height: 180px;
   overflow: hidden;
+  border-radius: 20px 20px 0px 0px;
 }
 
 .fav-food-container {
@@ -17,5 +18,5 @@ img {
 }
 
 .food-description {
-  height: 80px;
+  height: auto;
 }
