@@ -1,0 +1,21 @@
+@use "../../scss/variables" as *;
+
+img {
+  // width: $base-spacing * 10;
+  height: fit-content;
+  // object-fit: fill;
+}
+
+.img-container {
+  height: 180px;
+  overflow: hidden;
+}
+
+.fav-food-container {
+  gap: $base-spacing * 8;
+  flex-wrap: wrap;
+}
+
+.food-description {
+  height: 80px;
+}

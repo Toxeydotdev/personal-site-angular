@@ -19,4 +19,13 @@
     [rounded]="true"
     [outlined]="!rlaAboutMe.isActive"
   ></p-button>
+
+  <p-button
+    icon="pi pi-briefcase"
+    [routerLink]="['.', RouteEnum.FOOD_MENU]"
+    routerLinkActive
+    #rlaFavFood="routerLinkActive"
+    [rounded]="true"
+    [outlined]="!rlaFavFood.isActive"
+  ></p-button>
 </div>
